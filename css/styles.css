@@ -1,20 +1,24 @@
 nav {
   width: 25%;
   float: left;
-  outline: solid black;
 }
 
 .content {
   width: 70%;
   float: left;
-  outline: solid red;
 }
 
 .animal-tile {
   display: inline-block;
-  width: 33%;
-  outline: solid blue;
+  width: 32.3%;
+  height: 200px;
   text-align: center;
+}
+
+figure img {
+  width: 100%;
+  border: 2px solid #394963;
+  border-radius: 5px;
 }
 
 figcaption {
