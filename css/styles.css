@@ -11,7 +11,6 @@ nav {
 .animal-tile {
   display: inline-block;
   width: 32.3%;
-  height: 200px;
   text-align: center;
 }
 
@@ -19,6 +18,10 @@ figure img {
   width: 100%;
   border: 2px solid #394963;
   border-radius: 5px;
+}
+
+figure img:hover {
+  
 }
 
 figcaption {
