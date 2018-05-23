@@ -1,6 +1,38 @@
+.container {
+  background-color: #F5F5F5;
+}
+
 nav {
   width: 25%;
   float: left;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #2b417f;
+  transition: .5s;
+  padding: 5px;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+  transition: .5s;
 }
 
 .content {
@@ -18,12 +50,19 @@ figure img {
   width: 100%;
   border: 2px solid #394963;
   border-radius: 5px;
+  transition: .5s;
+  outline: 0 solid black;
 }
 
 figure img:hover {
-  
+  transition: .5s;
+  outline: 100px solid #6681ad;
+  border-radius: 0;
+  position: relative;
+  cursor: pointer;
 }
 
 figcaption {
   text-align: center;
+  position: relative;
 }
