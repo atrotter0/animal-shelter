@@ -1,0 +1,22 @@
+nav {
+  width: 25%;
+  float: left;
+  outline: solid black;
+}
+
+.content {
+  width: 70%;
+  float: left;
+  outline: solid red;
+}
+
+.animal-tile {
+  display: inline-block;
+  width: 33%;
+  outline: solid blue;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
