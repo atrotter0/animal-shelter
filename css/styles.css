@@ -1,4 +1,4 @@
-.container {
+body {
   background-color: #F5F5F5;
 }
 
@@ -65,4 +65,29 @@ figure img:hover {
 figcaption {
   text-align: center;
   position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    text-align: center;
+  }
+
+  .animal-tile {
+    display: block;
+    width: 100%;
+  }
+
+  nav {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .content {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
